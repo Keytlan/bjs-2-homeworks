@@ -23,7 +23,7 @@ function getArrayParams(arr) {
 function worker(arr) {
   let sum = 0;
 
-  arr.forEach(item => sum += arr[i]);
+  arr.forEach(item => sum += item);
 
   return sum;
 }
